@@ -1,0 +1,21 @@
+.message {
+  text-align: center;
+  color: #808080;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  padding: 5px;
+  font-weight: 700;
+  color: #212121;
+}
+
+.listItem--accent {
+  composes: listItem;
+  color: green;
+}
