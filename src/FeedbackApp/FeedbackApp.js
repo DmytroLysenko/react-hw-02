@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./FeedbackApp.module.css";
 
-import Section from "../Section/Section";
-import FeedbackOptions from "../FeedbackOptions/FeedbackOptions";
-import Statistics from "../Statistics/Statistics";
+import Section from "./components/Section";
+import FeedbackOptions from "./components/FeedbackOptions";
+import Statistics from "./components/Statistics";
 
 export default class FeedbackApp extends React.Component {
   state = {

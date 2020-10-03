@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import FeedbackApp from "./FeedbackApp/FeedbackApp";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FeedbackApp />
   </React.StrictMode>,
   document.getElementById("root")
 );
